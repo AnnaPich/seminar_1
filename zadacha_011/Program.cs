@@ -11,7 +11,7 @@ int EntryQuadrunt (string str)
     return quadrant;
 }
 
-void FindingRange (int quadrant)
+void PrintRange (int quadrant)
 {
     if (quadrant < 1 || quadrant > 4) Console.WriteLine("Ошибка! Введите число от 1 до 4");
     if (quadrant == 1) Console.WriteLine("Квадрант 1: X > 0, Y > 0");
@@ -24,4 +24,4 @@ void FindingRange (int quadrant)
 int quadrant = EntryQuadrunt("Введите номер квадранта: ");
 //Console.Write(quadrant);
 
-FindingRange (quadrant);
+PrintRange (quadrant);

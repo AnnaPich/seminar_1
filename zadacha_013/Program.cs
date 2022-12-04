@@ -10,7 +10,7 @@ void FindSquares(int N)
     while (number <= N)
     {
         int result = number * number;
-        Console.WriteLine(result);
+        Console.Write(result + ", ");
         number++;
     } 
 }
@@ -27,7 +27,7 @@ int DataEntryN (string str)
 
 int N = DataEntryN("Введите число N:");
 
-Console.WriteLine($"Квадраты чисел от 1 до {N}:");
+Console.Write($"Квадраты чисел от 1 до {N}: ");
 
 FindSquares(N);
 

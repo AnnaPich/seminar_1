@@ -6,7 +6,7 @@
 void FindDistanceAB (int x1, int y1, int x2, int y2)
 {
     double distanceAB = Math.Sqrt((x2-x1) * (x2-x1) + (y2-y1) * (y2-y1));
-    Console.Write($"Расстояние между точками А[{x1};{y1}] и В[{x2};{y2}] равно {distanceAB}]");
+    Console.Write($"Расстояние между точками А[{x1};{y1}] и В[{x2};{y2}] равно {distanceAB}");
 }
 
 //int CoordinatesPoint (int x1, int y1)
